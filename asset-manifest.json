@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.113e6352.css",
+    "main.js": "/my-portfolio/static/js/main.27ccc889.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/my-pic.JPG": "/my-portfolio/static/media/my-pic.2bedb197841c51721259.JPG",
+    "static/media/mishkat-logo-6.png": "/my-portfolio/static/media/mishkat-logo-6.d34605343f8610f756e7.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.113e6352.css.map": "/my-portfolio/static/css/main.113e6352.css.map",
+    "main.27ccc889.js.map": "/my-portfolio/static/js/main.27ccc889.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.113e6352.css",
+    "static/js/main.27ccc889.js"
+  ]
+}
