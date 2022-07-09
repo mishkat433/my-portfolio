@@ -1,0 +1,15 @@
+.sectionHead{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+/* .sectionHead::after{
+    position: absolute;
+    display: table;
+    content: "";
+    top: 40px;
+    left: 44%;
+    height:2px ;
+    width: 135px;
+    background-color: #fc8f22;
+} */

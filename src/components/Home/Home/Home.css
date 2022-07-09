@@ -1,0 +1,12 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+.full-background{
+    background-color: rgb(3, 3, 26);
+    padding-bottom: 20px;
+}
+.text{
+    color: #fc8f22;
+}

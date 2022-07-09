@@ -1,0 +1,46 @@
+.full-about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-pic {
+    height: 80%;
+    width: 70%;
+    transition: 1s;
+    border-radius: 10px;
+    filter: grayscale(80%);
+}
+
+.pic:hover .my-pic {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.about-me {
+    line-height: 34px;
+    text-align: justify;
+}
+
+@media only screen and (max-width:768px) {
+    .full-about {
+        flex-direction: column-reverse;
+        padding: 0px 10px;
+    }
+
+    .my-pic {
+        height: 350px;
+        width: 80%;
+        transition: 1s;
+        border-radius: 10px;
+        filter: grayscale(80%);
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+
+    .pic:hover .my-pic {
+        transform: scale(1);
+        filter: grayscale(0%);
+    }
+}
