@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/mishkat433/my-portfolio.git/static/css/main.49cb9df5.css",
-    "main.js": "/mishkat433/my-portfolio.git/static/js/main.cb76e57e.js",
+    "main.js": "/mishkat433/my-portfolio.git/static/js/main.7736b226.js",
     "static/js/787.128fc6e9.chunk.js": "/mishkat433/my-portfolio.git/static/js/787.128fc6e9.chunk.js",
     "static/media/mishkat cv update.pdf": "/mishkat433/my-portfolio.git/static/media/mishkat cv update.a66b6243c8dcd9af09c9.pdf",
     "static/media/my-pic.JPG": "/mishkat433/my-portfolio.git/static/media/my-pic.2bedb197841c51721259.JPG",
     "static/media/mishkat-logo-6.png": "/mishkat433/my-portfolio.git/static/media/mishkat-logo-6.d34605343f8610f756e7.png",
     "index.html": "/mishkat433/my-portfolio.git/index.html",
     "main.49cb9df5.css.map": "/mishkat433/my-portfolio.git/static/css/main.49cb9df5.css.map",
-    "main.cb76e57e.js.map": "/mishkat433/my-portfolio.git/static/js/main.cb76e57e.js.map",
+    "main.7736b226.js.map": "/mishkat433/my-portfolio.git/static/js/main.7736b226.js.map",
     "787.128fc6e9.chunk.js.map": "/mishkat433/my-portfolio.git/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49cb9df5.css",
-    "static/js/main.cb76e57e.js"
+    "static/js/main.7736b226.js"
   ]
 }
