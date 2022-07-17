@@ -28,4 +28,15 @@
     .contact-para {
         text-align: justify;
     }
+
+    .button-all a:hover {
+        color: white;
+        transition: 0.4s;
+        background-color: #F58212;
+    }
+
+    .button-all a:hover i {
+        color: #fff;
+        transition: 0.4s;
+    }
 }

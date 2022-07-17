@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer pt-4' >
             <p className='text-center pt-5'><a href="https://github.com/mishkat433/my-portfolio" target="blank"
-                className='text-warning text-decoration-none '>&#9733;  Star</a> &nbsp; By Me - {new Date().getFullYear()}</p>
+                className='text-warning text-decoration-none '>&#9733;  Star</a> &nbsp; Developed By Me - {new Date().getFullYear()}</p>
 
             <ScrollUpButton className="togle-up"
                 ToggledStyle={{ right: 20 }}
