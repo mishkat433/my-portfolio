@@ -28,10 +28,10 @@ const Navbar = () => {
                             <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="/">Portfolio</a>
+                            <a className="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="https://mishkat433.github.io/my-portfolio/">Contact</a>
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                         <li className="nav-item mx-lg-2">
                             <a className="nav-link resume" download="Mishkat Cv" href={cv} target="_blank" rel="noopener noreferrer">resume</a>

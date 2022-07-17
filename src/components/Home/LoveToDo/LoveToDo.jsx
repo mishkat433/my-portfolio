@@ -11,12 +11,12 @@ const LoveCardData = [
     },
     {
         id: "2",
-        icon: "fa-solid fa-person-walking-luggage",
+        icon: "fa-solid fa-plane-departure",
         heading: "Travelling"
     },
     {
         id: "3",
-        icon: "fa-solid fa-mountain-city",
+        icon: "fa-solid fa-person-hiking",
         heading: "Mountain Hiking"
     },
     {

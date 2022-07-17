@@ -6,8 +6,6 @@ const LoveCard = ({ cardData }) => {
 
     return (
         <div className=" full-card ">
-
-            {/* <img class="card-img-top img" src={task.pic} alt="Card image cap" /> */}
             <div className="card-img-top icon">
                 <i className={cardData.icon} ></i>
             </div>

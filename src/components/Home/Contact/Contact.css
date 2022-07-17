@@ -1,0 +1,31 @@
+.full-contact {
+    height: 60vh;
+}
+
+.button-all a:hover i {
+    color: #F58212;
+    transition: 0.4s;
+}
+
+.contact-way h3 {
+    margin: 0;
+}
+
+.contact-way p {
+    user-select: text;
+}
+
+@media screen and (max-width:768px) {
+    .full-contact {
+        height: 100%;
+        text-align: center;
+    }
+
+    .contact-way {
+        margin-top: 40px;
+    }
+
+    .contact-para {
+        text-align: justify;
+    }
+}
