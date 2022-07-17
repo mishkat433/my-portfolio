@@ -21,17 +21,18 @@ const Intro = () => {
                     }}
                 />
                 <div className="intro-footer mt-lg-5">
-                    <a className='btn getResume mr-4' href={cv} download="Mishkat Cv">Get Resume<i className="fa-solid fa-cloud-arrow-down ml-2"></i></a>
-                    <a className='btn getAbout' href="#about">About Me</a>
-
+                    <div className="button-all">
+                        <a className='btn getResume mr-lg-4 mt-sm-3' href={cv} download="Mishkat Cv">Get Resume<i className="fa-solid fa-cloud-arrow-down ml-2"></i></a>
+                        <a className='btn getAbout  mt-sm-3' href="#about">About Me</a>
+                    </div>
                     <div className=' text ml-lg-4 connect'>CONNECT ME <i className="fa-solid fa-arrow-right-long text ml-2 mr-1"></i>
                         <a className='connect-icon ml-4' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><i className="fa-brands fa-facebook-f"></i></a>
-                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="/"><i className="fa-brands fa-twitter"></i></a>
-                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="/"><i className="fa-brands fa-linkedin-in"></i></a>
+                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://mishkat433.github.io/my-portfolio/"><i className="fa-brands fa-twitter"></i></a>
+                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://www.linkedin.com/in/md-mishkat-b050b71bb"><i className="fa-brands fa-linkedin-in"></i></a>
                         <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://github.com/mishkat433"><i className="fa-brands fa-github"></i></a>
-
                     </div>
                 </div>
+                <div className="d-blog"></div>
             </div>
         </div >
     );

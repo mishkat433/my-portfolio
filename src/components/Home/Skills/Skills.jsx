@@ -5,8 +5,8 @@ const Skills = () => {
     return (
         <section id='skills'>
             <SectionHead title={"my Skills"}></SectionHead>
+            <h1 className='comming'>Comming Soooooooon</h1>
 
-            
         </section>
     );
 };

@@ -4,8 +4,10 @@ import navLogo from "../../../images/mishkat-logo-6.png";
 import cv from "../../../CV/mishkat cv update.pdf"
 
 const Navbar = () => {
+
+
     return (
-        <header className='container'>
+        <header className='container-fluid' id='fixed'>
             <nav className="navbar navbar-expand-lg navbar-white ">
                 <a className="navbar-brand" href="/">
                     <img className='navLogo' src={navLogo} alt="connection error" />
@@ -17,19 +19,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto text-uppercase nav-text  text-center">
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link mx-2 " href="/">Home</a>
+                            <a className="nav-link mx-2 " href="https://mishkat433.github.io/my-portfolio/">Home</a>
                         </li>
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="/">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="/">Skills</a>
+                            <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item mx-lg-2">
                             <a className="nav-link" href="/">Portfolio</a>
                         </li>
                         <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="/">Contact</a>
+                            <a className="nav-link" href="https://mishkat433.github.io/my-portfolio/">Contact</a>
                         </li>
                         <li className="nav-item mx-lg-2">
                             <a className="nav-link resume" download="Mishkat Cv" href={cv} target="_blank" rel="noopener noreferrer">resume</a>

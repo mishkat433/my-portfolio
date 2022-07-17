@@ -26,21 +26,36 @@
 @media only screen and (max-width:768px) {
     .full-about {
         flex-direction: column-reverse;
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
 
     .my-pic {
-        height: 350px;
+        height: 80%;
         width: 80%;
         transition: 1s;
         border-radius: 10px;
         filter: grayscale(80%);
         margin-left: 10%;
         margin-bottom: 30px;
+        filter: grayscale(0);
+    }
+
+    .getResume {
+        padding: 15px 16px;
     }
 
     .pic:hover .my-pic {
         transform: scale(1);
-        filter: grayscale(0%);
+    }
+
+    .button-al a {
+        margin-top: 10px;
+        margin-right: 10px;
+        padding: 15px 20px;
+    }
+
+    .button-al a:last-child {
+        margin-right: 0px;
+        padding: 15px 38px;
     }
 }
