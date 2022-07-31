@@ -2,8 +2,6 @@ import React from 'react';
 
 const LoveCard = ({ cardData }) => {
 
-    console.log(cardData)
-
     return (
         <div className=" full-card ">
             <div className="card-img-top icon">
