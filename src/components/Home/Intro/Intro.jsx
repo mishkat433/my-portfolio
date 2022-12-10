@@ -6,7 +6,7 @@ import { FaArrowRight, FaCloudDownloadAlt, FaFacebookF, FaGithubAlt, FaLinkedinI
 const Intro = () => {
     return (
         <div className='h-[60vh] md:h-[93vh] flex items-center' id='home'>
-            <div className="text-white w-full">
+            <div className="text-white ">
                 <p className='text-2xl mb-2 text-orange-400'>Hello! I am</p>
                 <h1 className='text-4xl md:text-5xl lg:text-7xl font-semibold mb-10'>Borhan Uddin Mishkat</h1>
                 <p className='text-2xl text-orange-400 mb-2'>Full Stack Web Developer</p>
@@ -29,7 +29,7 @@ const Intro = () => {
                     </div>
                     <div className='flex items-center gap-5 w-full md:w-1/2 mt-5 lg:mt-0 text-2xl'>
                         <div className='flex gap-3 items-center'>
-                            <h4 className='text-2xl'>CONNECT ME </h4>
+                            <h4 className='text-2xl'>JOIN WITH ME </h4>
                             <FaArrowRight />
                         </div>
                         <div className='flex gap-5'>
