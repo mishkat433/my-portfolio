@@ -1,47 +1,42 @@
 import React from 'react';
-import "./Navbar.css";
-import navLogo from "../../../images/mishkat-logo-6.png";
-import cv from "../../../CV/mishkat cv update.pdf"
+import logo from "../../../images/mishkat-logo-6.png";
+import cv from "../../../CV/MiskatCV.pdf";
 
 const Navbar = () => {
 
-
+    const menuItems = <>
+        <li><a href='#home' className='text-white'>Home</a></li>
+        <li><a href='#about' className='text-white' >About</a></li>
+        <li><a href='#project' className='text-white' >Project</a></li>
+        <li><a href='#contact' className='text-white'>Contact</a></li>
+    </>
     return (
-        <header className='container-fluid' id='fixed'>
-            <nav className="navbar navbar-expand-lg navbar-white ">
-                <a className="navbar-brand" href="/">
-                    <img className='navLogo' src={navLogo} alt="connection error" />
-                </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fa-solid fa-bars text"></i>
-                </button>
-
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ml-auto text-uppercase nav-text  text-center">
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link mx-2 " href="https://mishkat433.github.io/my-portfolio/">Home</a>
-                        </li>
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="#about">About</a>
-                        </li>
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li className="nav-item mx-lg-2">
-                            <a className="nav-link resume" download="Mishkat Cv" href={cv} target="_blank" rel="noopener noreferrer">resume</a>
-                        </li>
+        <div className='bg-[#28283ead] sticky top-0 z-20'>
+            <div className="navbar w-11/12 mx-auto ">
+                <div className="navbar-start">
+                    <div className="dropdown">
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-700 rounded-box w-52">
+                            {menuItems}
+                        </ul>
+                    </div>
+                    <a href='#home' className="flex items-center text-xl md:text-3xl gap-1 md:gap-3 font-semibold">
+                        <img className='w-14 md:w-16' src={logo} alt="" /></a>
+                </div>
+                <div className="navbar-center hidden lg:flex">
+                    <ul className="menu menu-horizontal p-0">
+                        {menuItems}
                     </ul>
                 </div>
-            </nav >
-        </header >
+                <div className="navbar-end">
+                    <a download="Mishkat Resume" href={cv} target="_blank" rel="noopener noreferrer"
+                        className="btn btn-outline border-orange-400 text-white hover:bg-orange-500 duration-300">Resume</a>
+                </div>
+            </div>
+        </div>
     );
 };
 
 export default Navbar;
-

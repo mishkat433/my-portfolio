@@ -1,25 +1,20 @@
 import React from 'react';
-import Navbar from '../../Common/Navbar/Navbar';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
 import Intro from '../Intro/Intro';
 import LoveToDo from '../LoveToDo/LoveToDo';
-import Portfolio from '../Portfolio/Portfolio';
-import Skills from '../Skills/Skills';
-import "./Home.css"
+import Projects from '../projects/Projects';
+// import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
-        <div className='full-background'>
-            <Navbar></Navbar>
+        <div className='w-11/12 mx-auto'>
             <Intro></Intro>
             <About></About>
-            <Skills></Skills>
+            {/* <Skills></Skills> */}
             <LoveToDo></LoveToDo>
-            <Portfolio></Portfolio>
+            <Projects />
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };

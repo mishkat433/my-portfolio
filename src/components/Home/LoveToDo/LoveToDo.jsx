@@ -1,38 +1,38 @@
 import React from 'react';
+import { FaHiking, FaLaptopCode, FaPlaneDeparture, FaSwimmer } from 'react-icons/fa';
 import SectionHead from '../../Common/SectionHead/SectionHead';
-import "./LoveToDo.css"
 import LoveCard from './Todo-card/LoveCard';
 
 const LoveCardData = [
     {
         id: "1",
-        icon: "fa-solid fa-laptop-code",
+        icon: <FaLaptopCode />,
         heading: "Codding"
     },
     {
         id: "2",
-        icon: "fa-solid fa-plane-departure",
+        icon: <FaPlaneDeparture />,
         heading: "Travelling"
     },
     {
         id: "3",
-        icon: "fa-solid fa-person-hiking",
+        icon: <FaHiking />,
         heading: "Mountain Hiking"
     },
     {
         id: "4",
-        icon: "fa-solid fa-person-swimming",
+        icon: <FaSwimmer />,
         heading: "Swimming"
     }
 ]
 
 const LoveToDo = () => {
     return (
-        <section className="container full-love">
+        <section className="text-white">
             <div id='skills'>
                 <SectionHead title={"Love To Do"}></SectionHead>
             </div>
-            <div className="todo-card">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-10 my-20">
                 {
                     LoveCardData.map(data => <LoveCard cardData={data} key={data.id}></LoveCard>)
                 }

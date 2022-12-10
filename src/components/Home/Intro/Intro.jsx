@@ -1,38 +1,44 @@
 import React from 'react';
-import "./Intro.css";
 import Typewriter from 'typewriter-effect';
-import cv from "../../../CV/mishkat cv update.pdf"
+import resume from "../../../CV/MiskatCV.pdf"
+import { FaArrowRight, FaCloudDownloadAlt, FaFacebookF, FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 
 const Intro = () => {
     return (
-        <div className='container'>
-            <div className="intro ">
-                <p className='text mb-0 intro-top'>Hello! I am</p>
-                <h1 className='intro-heading'>Borhan uddin mishkat</h1>
-                <p className='intro-bottom text mt-3'>Full Stack Web Developer</p>
+        <div className='h-[60vh] md:h-[93vh] flex items-center' id='home'>
+            <div className="text-white w-full">
+                <p className='text-2xl mb-2 text-orange-400'>Hello! I am</p>
+                <h1 className='text-4xl md:text-5xl lg:text-7xl font-semibold mb-10'>Borhan Uddin Mishkat</h1>
+                <p className='text-2xl text-orange-400 mb-2'>Full Stack Web Developer</p>
 
-                <span className='intro-top'>Skills in :  </span>
-                <Typewriter className="typewriter"
-                    options={{
-                        strings: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', "jQuery", 'Meterial Ui', 'Node Js', 'Mongo DB', 'Java'],
-                        autoStart: true,
-                        loop: true,
-                        delay: 100,
-                    }}
-                />
-                <div className="intro-footer mt-lg-5">
-                    <div className="button-all">
-                        <a className='btn getResume mr-lg-4 mt-sm-3' href={cv} download="Mishkat Cv">Get Resume<i className="fa-solid fa-cloud-arrow-down ml-2"></i></a>
-                        <a className='btn getAbout  mt-sm-3' href="#about">About Me</a>
+                <div className='flex mb-12 text-2xl gap-3'>
+                    <span className=''>Skills in :  </span>
+                    <Typewriter className=""
+                        options={{
+                            strings: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', "jQuery", "React", 'Material Ui', 'Node Js', 'Mongo DB', 'Java'],
+                            autoStart: true,
+                            loop: true,
+                            delay: 150,
+                        }}
+                    />
+                </div>
+                <div className="block md:flex justify-between items-center">
+                    <div className="w-ful lg:w-1/2 flex lg:block">
+                        <a download="Mishkat Resume" href={resume} target="_blank" rel="noopener noreferrer" className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">Get Resume <FaCloudDownloadAlt className=' text-2xl ml-2' /></a>
+                        <button className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">About me </button>
                     </div>
-                    <div className=' text ml-lg-4 connect'>CONNECT ME <i className="fa-solid fa-arrow-right-long text ml-2 mr-1"></i>
-                        <a className='connect-icon ml-4' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><i className="fa-brands fa-facebook-f"></i></a>
-                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://mishkat433.github.io/my-portfolio/"><i className="fa-brands fa-twitter"></i></a>
-                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://www.linkedin.com/in/md-mishkat-b050b71bb"><i className="fa-brands fa-linkedin-in"></i></a>
-                        <a className='connect-icon' rel='noopener noreferrer' target="_blank" href="https://github.com/mishkat433"><i className="fa-brands fa-github"></i></a>
+                    <div className='flex items-center gap-5 w-full md:w-1/2 mt-5 lg:mt-0 text-2xl'>
+                        <div className='flex gap-3 items-center'>
+                            <h4 className='text-2xl'>CONNECT ME </h4>
+                            <FaArrowRight />
+                        </div>
+                        <div className='flex gap-5'>
+                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><FaFacebookF /></a>
+                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.linkedin.com/in/md-mishkat-b050b71bb"><FaLinkedinIn /></a>
+                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://github.com/mishkat433"><FaGithubAlt /></a>
+                        </div>
                     </div>
                 </div>
-                <div className="d-blog"></div>
             </div>
         </div >
     );
