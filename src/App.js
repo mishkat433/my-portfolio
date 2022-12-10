@@ -4,6 +4,8 @@ import Home from './components/Home/Home/Home';
 import MainLayout from './Layout/MainLayout';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Toaster } from 'react-hot-toast';
+
 const App = () => {
 
   useEffect(() => {
@@ -36,6 +38,7 @@ const App = () => {
   ])
   return (
     <div>
+      <Toaster />
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

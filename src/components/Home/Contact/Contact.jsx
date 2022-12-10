@@ -1,8 +1,24 @@
 import React from 'react';
-import { FaMailBulk, FaTelegramPlane } from 'react-icons/fa';
+import { FaTelegramPlane } from 'react-icons/fa';
 import SectionHead from '../../Common/SectionHead/SectionHead';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_zo8qc9a', 'template_t8j9xte', e.target, '21G9ckUfAIli17uPg')
+            .then((result) => {
+                if (result?.status === 200) {
+                    toast.success('Successfully send your email')
+                }
+            }, (error) => {
+                toast.error('Something went wrong, Please try again')
+            });
+        e.target.reset()
+    };
 
     return (
         <section className='pt-20' id='contact'>
@@ -10,7 +26,7 @@ const Contact = () => {
             <div className='flex flex-col md:flex-row gap-20 my-10 md:my-20'>
                 <div className="hero   ">
                     <div className="hero-content w-full rounded-md">
-                        <form className="card w-full " target="_blank" action="https://formsubmit.co/6b63d3dbd439ce894ba912f8253f9aae" method="POST">
+                        <form onSubmit={sendEmail} className="card w-full " >
                             <div className=" w-full">
                                 <div className='flex flex-col md:flex-row gap-10 '>
                                     <div className="form-control w-full">
@@ -23,13 +39,8 @@ const Contact = () => {
                                 <div className="form-control mt-5">
                                     <textarea name="message" className="textarea textarea-bordered h-32" placeholder='Type your message here :'></textarea>
                                 </div>
-                                <div className='flex justify-between'>
-                                    <div className="form-control mt-5 w-3/6 md:w-1/6">
-                                        <button type='reset' className="btn bg-orange-500 hover:bg-orange-700">reset</button>
-                                    </div>
-                                    <div className="form-control mt-5 w-3/6 md:w-1/6">
-                                        <button type='submit' className="btn bg-orange-500 hover:bg-orange-700">Send <FaTelegramPlane className='ml-3' /></button>
-                                    </div>
+                                <div className="form-control mt-5 w-3/6 md:w-1/6">
+                                    <button type='submit' className="btn bg-orange-500 hover:bg-orange-700">Send <FaTelegramPlane className='ml-3' /></button>
                                 </div>
                             </div>
                         </form>
@@ -65,3 +76,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// target="_blank" action="https://formsubmit.co/6b63d3dbd439ce894ba912f8253f9aae" method="POST"

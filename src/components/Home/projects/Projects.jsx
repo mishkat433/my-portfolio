@@ -13,7 +13,7 @@ const projectData = [
         serverSite: 'https://github.com/mishkat433/modern-laptop-server'
     },
     {
-        id: 1,
+        id: 2,
         url: "https://perfect-click2.web.app",
         siteName: 'Perfect Click',
         desc: "Personal photography service related Website",
@@ -22,7 +22,7 @@ const projectData = [
         serverSite: 'https://github.com/mishkat433/perfect-click-server'
     },
     {
-        id: 1,
+        id: 3,
         url: "https://auto-car-5826.web.app",
         siteName: 'Perfect Click',
         desc: "Car service appointment related website",
