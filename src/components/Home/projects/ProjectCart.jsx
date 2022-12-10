@@ -4,7 +4,7 @@ import { FaGithubAlt, FaGithubSquare, FaRegPaperPlane } from 'react-icons/fa';
 const ProjectCart = ({ project }) => {
     console.log(project);
     return (
-        <div className="card shadow-xl bg-gray-800" data-aos="flip-left">
+        <div className="card shadow-xl bg-[#102649e9]" data-aos="flip-left">
             <figure><iframe className='w-full h-[280px]' src={project.url} title='website'></iframe> </figure>
             <div className="card-body p-3">
                 <h2 className="text-3xl">{project.siteName}</h2>

@@ -35,7 +35,7 @@ const projectData = [
 const Projects = () => {
     return (
         <section className='full-portfolio text-white pt-20' id='project'>
-            <SectionHead title={"Project"}></SectionHead>
+            <SectionHead title={"Projects"}></SectionHead>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-10'>
                 {
                     projectData.map(project => <ProjectCart project={project} key={project.id} />)

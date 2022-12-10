@@ -10,7 +10,7 @@ const About = () => {
             <SectionHead title={"About me"}></SectionHead>
             <div className="flex flex-col-reverse md:flex-row gap-10 items-center mt-20">
                 <div className="w-full md:w-3/5 ">
-                    <p className='text-lg w-full md:w-4/5 text-justify '>Hello! I am Borhan Uddin Mishkat, a passionate software engineer based on full stack web development.
+                    <p className='text-lg w-full md:w-4/5 text-justify select-none'>Hello! I am Borhan Uddin Mishkat, a passionate software engineer based on full stack web development.
                         I like to solve any complex problem. I love learning programming all the time. My goal is to one day i can be a good programmer.
                         I am available for any type of job opportunity that suits my interests.</p>
                     <div className="w-ful lg:w-1/2 flex gap-8 mt-10">

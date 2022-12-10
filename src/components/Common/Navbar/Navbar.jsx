@@ -5,13 +5,13 @@ import cv from "../../../CV/MiskatCV.pdf";
 const Navbar = () => {
 
     const menuItems = <>
-        <li><a href='#home' className='text-white'>Home</a></li>
-        <li><a href='#about' className='text-white' >About</a></li>
-        <li><a href='#project' className='text-white' >Project</a></li>
-        <li><a href='#contact' className='text-white'>Contact</a></li>
+        <li><a href='#home' className='text-white hover:border-orange-500 hover:border-b-2 '>Home</a></li>
+        <li><a href='#about' className='text-white hover:border-orange-500 hover:border-b-2 ' >About</a></li>
+        <li><a href='#project' className='text-white hover:border-orange-500 hover:border-b-2 ' >Project</a></li>
+        <li><a href='#contact' className='text-white hover:border-orange-500 hover:border-b-2 '>Contact</a></li>
     </>
     return (
-        <div className='bg-[#28283ead] sticky top-0 z-20'>
+        <div className=' bg-gradient-to-b from-[#1b2a42] to-[#0a192ff8] sticky top-0 z-20'>
             <div className="navbar w-11/12 mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -26,7 +26,7 @@ const Navbar = () => {
                         <img className='w-14 md:w-16' src={logo} alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
+                    <ul className="menu menu-horizontal p-2">
                         {menuItems}
                     </ul>
                 </div>
