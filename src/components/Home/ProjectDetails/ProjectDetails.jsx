@@ -29,7 +29,7 @@ const ProjectDetails = () => {
                     <p>{singleProject.desc} </p>
                     <p className='mt-3'>{singleProject.details}</p>
                     <p className='mt-3'>Technology used : {singleProject.technology}</p>
-                    <div className="card-actions justify-evenly gap-10 ">
+                    <div className="card-actions justify-evenly gap-10 mt-5">
                         <a href={singleProject.clintSite} target="blank" className="text-white hover:text-orange-500 duration-300 text-3xl" title='Clint Site Code'><FaGithubAlt /></a>
                         <a href={singleProject.serverSite} target="blank" className="text-white hover:text-orange-500 duration-300 text-3xl" title='Server Site Code'><FaGithubSquare /></a>
                         <a href={singleProject.url} target="blank" className="text-white hover:text-orange-500 duration-300 text-3xl" title='Live Site'><FaRegPaperPlane /></a>
