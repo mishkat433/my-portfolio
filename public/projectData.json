@@ -2,7 +2,15 @@
     {
         "id": 1,
         "url": "https://modern-laptop.web.app",
-        "banner": "https://i.ibb.co/gyzmBqd/Screenshot-1.png",
+        "banner": [
+            "https://i.ibb.co/gyzmBqd/Screenshot-1.png",
+            "https://i.ibb.co/qC2Qzxg/modern5.png",
+            "https://i.ibb.co/64knk4F/modern4.png",
+            "https://i.ibb.co/y81Kzgx/modern3.png",
+            "https://i.ibb.co/0ZkchvJ/modern2.png",
+            "https://i.ibb.co/FKbm9nD/modern7.png",
+            "https://i.ibb.co/RgjfVMZ/modern6.png"
+        ],
         "details": "Unique design website, Resale products, Admin manage, verify user, 3 types of user, sale product, add products, report product. Implement login/signup/logout, protected route, advertise product, Ui/Ux based website.",
         "siteName": "Modern Laptop",
         "desc": "Second hand Laptop sales related website",
@@ -13,7 +21,14 @@
     {
         "id": 2,
         "url": "https://perfect-click2.web.app",
-        "banner": "https://i.ibb.co/YpXCYFB/perfect-Click.png",
+        "banner": [
+            "https://i.ibb.co/YpXCYFB/perfect-Click.png",
+            "https://i.ibb.co/W2d6fNG/perfect-Click5.png",
+            "https://i.ibb.co/GcsR0gQ/perfect-Click2.png",
+            "https://i.ibb.co/SRrZSgS/perfect-Click3.png",
+            "https://i.ibb.co/rmzMQ0x/perfect-Click4.png",
+            "https://i.ibb.co/xqPTzdj/perfect-Click6.png"
+        ],
         "details": "On this Photography website we can see services and Photography, Review specific services, Login/Register, and Update or delete Reviews. This website creates with ReactJs, ExpressJs, MongoDB, Tailwind CSS, Firebase, and more frameworks and packages.",
         "siteName": "Perfect Click",
         "desc": "Personal photography service related Website",
@@ -24,8 +39,16 @@
     {
         "id": 3,
         "url": "https://auto-car-5826.web.app",
-        "banner": "https://i.ibb.co/F51VWkq/autoCar.png",
-        "details": "comming soon",
+        "banner": [
+            "https://i.ibb.co/F51VWkq/autoCar.png",
+            "https://i.ibb.co/KwRRx5t/auto3.png",
+            "https://i.ibb.co/1vyPFw1/auto4.png",
+            "https://i.ibb.co/BncT65R/auto5.png",
+            "https://i.ibb.co/Bt6KkKV/auto6.png",
+            "https://i.ibb.co/hRMr8dF/auto7.png",
+            "https://i.ibb.co/qpMg2cq/auto2.png"
+        ],
+        "details": "user can appointment for servicing, user can appointment update/ delete, admin manage system ",
         "siteName": "Auto car",
         "desc": "Car service appointment related website",
         "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",

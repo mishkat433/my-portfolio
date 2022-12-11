@@ -11,6 +11,7 @@ import About from './components/Home/About/About';
 import Projects from './components/Home/projects/Projects';
 import ProjectDetails from './components/Home/ProjectDetails/ProjectDetails';
 
+
 const App = () => {
 
   useEffect(() => {
@@ -45,7 +46,6 @@ const App = () => {
           path: "/project",
           element: <Projects />
         },
-
         {
           path: "/contact",
           element: <Contact />
