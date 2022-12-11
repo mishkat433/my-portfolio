@@ -5,7 +5,7 @@ import { FaArrowRight, FaCloudDownloadAlt, FaFacebookF, FaGithubAlt, FaLinkedinI
 
 const Intro = () => {
     return (
-        <div className='h-[60vh] md:h-[93vh] flex items-center' id='home'>
+        <div className='h-[60vh] md:h-[93vh] flex items-center w-11/12 mx-auto' id='home'>
             <div className="text-white ">
                 <p className='text-2xl mb-2 text-orange-400'>Hello! I am</p>
                 <h1 className='text-4xl md:text-5xl lg:text-7xl font-semibold mb-10'>Borhan Uddin Mishkat</h1>
@@ -33,12 +33,15 @@ const Intro = () => {
                             <FaArrowRight />
                         </div>
                         <div className='flex gap-5'>
-                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><FaFacebookF /></a>
+                            <a className='text-white  hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><FaFacebookF /></a>
                             <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.linkedin.com/in/md-mishkat-b050b71bb"><FaLinkedinIn /></a>
                             <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://github.com/mishkat433"><FaGithubAlt /></a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+
             </div>
         </div >
     );

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "url": "https://modern-laptop.web.app",
+        "banner": "https://i.ibb.co/gyzmBqd/Screenshot-1.png",
+        "details": "Unique design website, Resale products, Admin manage, verify user, 3 types of user, sale product, add products, report product. Implement login/signup/logout, protected route, advertise product, Ui/Ux based website.",
+        "siteName": "Modern Laptop",
+        "desc": "Second hand Laptop sales related website",
+        "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
+        " clintSite": "https://github.com/mishkat433/modern-laptop-clint",
+        "serverSite": "https: //github.com/mishkat433/modern-laptop-server"
+    },
+    {
+        "id": 2,
+        "url": "https://perfect-click2.web.app",
+        "banner": "https://i.ibb.co/YpXCYFB/perfect-Click.png",
+        "details": "On this Photography website we can see services and Photography, Review specific services, Login/Register, and Update or delete Reviews. This website creates with ReactJs, ExpressJs, MongoDB, Tailwind CSS, Firebase, and more frameworks and packages.",
+        "siteName": "Perfect Click",
+        "desc": "Personal photography service related Website",
+        "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
+        " clintSite": "https://github.com/mishkat433/perfect-click-clint",
+        "serverSite": "https: //github.com/mishkat433/perfect-click-server"
+    },
+    {
+        "id": 3,
+        "url": "https://auto-car-5826.web.app",
+        "banner": "https://i.ibb.co/F51VWkq/autoCar.png",
+        "details": "comming soon",
+        "siteName": "Auto car",
+        "desc": "Car service appointment related website",
+        "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
+        " clintSite": "https://github.com/mishkat433/auto-car-clint",
+        "serverSite": "https: //github.com/mishkat433/auto-car-server"
+    }
+]

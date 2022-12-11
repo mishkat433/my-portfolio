@@ -28,7 +28,7 @@ const LoveCardData = [
 
 const LoveToDo = () => {
     return (
-        <section className="text-white">
+        <section className="text-white w-11/12 mx-auto">
             <div id='skills'>
                 <SectionHead title={"Love To Do"}></SectionHead>
             </div>

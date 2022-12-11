@@ -6,7 +6,7 @@ import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <section className='text-white md:h-[93vh] mb-20 md:mb-0' id='about'>
+        <section className='text-white md:h-[93vh] mb-20 md:mb-0 w-11/12 mx-auto' id='about'>
             <SectionHead title={"About me"}></SectionHead>
             <div className="flex flex-col-reverse md:flex-row gap-10 items-center mt-20">
                 <div className="w-full md:w-3/5 ">

@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <section className='pt-20' id='contact'>
+        <section className='pt-20 w-11/12 mx-auto' id='contact'>
             <SectionHead title={"Contact Me"}></SectionHead>
             <div className='flex flex-col md:flex-row gap-20 my-10 md:my-20'>
                 <div className="hero   ">

@@ -6,6 +6,7 @@ import Navbar from '../components/Common/Navbar/Navbar';
 const MainLayout = () => {
     return (
         <div className='bg-[#0A192F]'>
+
             <Navbar />
             <Outlet />
             <Footer />
