@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaGithubAlt, FaGithubSquare, FaRegPaperPlane } from 'react-icons/fa';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
     const [singleProject, setSingleProject] = useState([])
@@ -15,8 +15,6 @@ const ProjectDetails = () => {
                 setSingleProject(project[0])
             })
     }, [id])
-
-    console.log(singleProject);
 
     return (
         <div className='w-11/12 mx-auto text-white my-20'>
