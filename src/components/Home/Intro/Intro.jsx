@@ -25,7 +25,7 @@ const Intro = () => {
                 <div className="block md:flex justify-between items-center">
                     <div className="w-ful lg:w-1/2 flex lg:block">
                         <a download="Mishkat Resume" href={resume} target="_blank" rel="noopener noreferrer" className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">Get Resume <FaCloudDownloadAlt className=' text-2xl ml-2' /></a>
-                        <button className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">About me </button>
+                        <a href='#about' className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">About me </a>
                     </div>
                     <div className='flex items-center gap-5 w-full md:w-1/2 mt-5 lg:mt-0 text-2xl'>
                         <div className='flex gap-3 items-center'>

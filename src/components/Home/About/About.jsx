@@ -15,7 +15,7 @@ const About = () => {
                         I am available for any type of job opportunity that suits my interests.</p>
                     <div className="w-ful lg:w-1/2 flex gap-8 mt-10">
                         <a href={cv} download="Mishkat Resume" target="_blank" rel="noopener noreferrer" className="btn bg-orange-500 text-white hover:bg-white hover:text-black">Get Resume <FaCloudDownloadAlt className=' text-2xl ml-2' /></a>
-                        <button className="btn bg-orange-500 text-white hover:bg-white hover:text-black">About me </button>
+                        <a href='#project' className="btn bg-orange-500 text-white hover:bg-white hover:text-black">Projects </a>
                     </div>
                 </div>
                 <div className="w-full md:w-2/5 md:hover:scale-110 duration-700 md:grayscale-[70%] hover:grayscale-0">
