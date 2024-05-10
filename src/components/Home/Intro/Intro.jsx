@@ -1,49 +1,50 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import resume from "../../../CV/MiskatCV.pdf"
-import { FaArrowRight, FaCloudDownloadAlt, FaFacebookF, FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import "./intro.css"
+import { FaArrowRight, FaFacebookF, FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import GetResume from '../../Common/GetResume';
+import ScrollToButton from '../../Common/ScrollToButton';
 
 const Intro = () => {
     return (
-        <div className='h-[60vh] md:h-[93vh] flex items-center w-11/12 mx-auto' id='home'>
-            <div className="text-white ">
-                <p className='text-2xl mb-2 text-orange-400'>Hello! I am</p>
-                <h1 className='text-4xl md:text-5xl lg:text-7xl font-semibold mb-10'>Borhan Uddin Mishkat</h1>
-                <p className='text-2xl text-orange-400 mb-2'>Full Stack Web Developer</p>
-
-                <div className='flex mb-12 text-2xl gap-3'>
+        <div className='h-[60vh] md:h-[93vh] flex items-center  w-11/12 mx-auto'>
+            <div className="text-center w-full">
+                <h1 class="text-4xl md:text-5xl lg:text-8xl mb-4 font-light text-black text-center">Hello!</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-8xl font-semibold text-red mb-8 ">I'am Mishkat</h1>
+                <p class="text-2xl text-orange-500 mb-2 text-red"><abbr title="MongoDB, ExpressJs, ReactJs, NodeJs,">MERN</abbr> & <abbr title="PostgreSql, ExpressJs, ReactJs, NodeJs,">PERN</abbr> Stack Web Developer</p>
+                <div className='flex justify-center mb-12 text-2xl gap-3 text-black'>
                     <span className=''>Skills in :  </span>
                     <Typewriter className=""
                         options={{
-                            strings: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', "jQuery", "React", 'Material Ui', 'Node Js', 'Mongo DB', 'Java'],
+                            strings: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', "jQuery", "React Js", 'Next Js', 'Node Js', 'express Js', 'Mongo DB', 'mongoose', 'Java'],
                             autoStart: true,
                             loop: true,
                             delay: 150,
                         }}
                     />
                 </div>
-                <div className="block md:flex justify-between items-center">
-                    <div className="w-ful lg:w-1/2 flex lg:block">
-                        <a download="Mishkat Resume" href={resume} target="_blank" rel="noopener noreferrer" className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">Get Resume <FaCloudDownloadAlt className=' text-2xl ml-2' /></a>
-                        <a href='#about' className="btn bg-orange-500 text-white mr-8 hover:bg-white hover:text-black">About me </a>
+                <div className="block md:flex justify-center items-center">
+                    <div class="w-ful flex lg:block">
+                        <GetResume />
+                        <ScrollToButton href="#about" btnName="About Me" />
                     </div>
-                    <div className='flex items-center gap-5 w-full md:w-1/2 mt-5 lg:mt-0 text-2xl'>
-                        <div className='flex gap-3 items-center'>
-                            <h4 className='text-2xl'>JOIN WITH ME </h4>
-                            <FaArrowRight />
+
+                    <div class="flex items-center gap-5 mt-5 lg:mt-0 text-2xl">
+                        <div class="flex gap-3 items-center">
+                            <h4 className="text-2xl text-black">JOIN WITH ME </h4>
+                            <FaArrowRight className='text-xl' />
                         </div>
-                        <div className='flex gap-5'>
-                            <a className='text-white  hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.facebook.com/md.mishkat.501/"><FaFacebookF /></a>
-                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://www.linkedin.com/in/md-mishkat-b050b71bb"><FaLinkedinIn /></a>
-                            <a className='text-white hover:text-orange-500 hover:scale-110 duration-300' rel='noopener noreferrer' target="_blank" href="https://github.com/mishkat433"><FaGithubAlt /></a>
+                        <div class="flex gap-5">
+                            <a title='facebook' className='text-black hover:text-red duration-300 hover:scale-105' href="https://www.facebook.com/md.mishkat.433/" target='_blank' rel="noreferrer" ><FaFacebookF /> </a>
+                            <a title='linkedin' className='text-black hover:text-red duration-300 hover:scale-105' href="https://www.linkedin.com/in/md-mishkat-b050b71bb" target='_blank' rel="noreferrer" ><FaLinkedinIn /> </a>
+                            <a title='github' className='text-black hover:text-red duration-300 hover:scale-105' href="https://github.com/mishkat433" target='_blank' rel="noreferrer" > <FaGithubAlt /> </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
 
-            </div>
-        </div >
+        </div>
+
     );
 };
 

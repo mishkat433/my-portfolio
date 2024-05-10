@@ -1,0 +1,33 @@
+.intro-bg-shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.intro-bg-shape2 {
+    clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    /* background: #313030; */
+
+
+
+}
+
+
+.ss {
+    background-color: transparent;
+    background-image: radial-gradient(at right center, #F7F9F4 0%, #FFD7D4 100%);
+}
+
+.hello {
+    /* color: linear-gradient(#ff9696, #ffe89e); */
+    margin-bottom: 8px;
+
+    background: linear-gradient(#ff9696 40%, #F97316);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* 
+background-color: transparent;
+background-image: radial-gradient(at top center, #F7F9F4 0%, #FFD7D4 100%); */

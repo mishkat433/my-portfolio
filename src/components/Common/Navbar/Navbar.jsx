@@ -2,18 +2,21 @@ import React from 'react';
 import logo from "../../../images/mishkat-logo-6.png";
 import cv from "../../../CV/MiskatCV.pdf";
 import { Link, NavLink } from 'react-router-dom';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
+import GetResume from '../GetResume';
 
 const Navbar = () => {
 
     const menuItems = <>
-        <li><NavLink to='/home' className={({ isActive }) => isActive ? 'text-white border-orange-500 border-b-2' : 'text-white hover:border-orange-500 hover:border-b-2'}>Home</NavLink></li>
-        <li><NavLink to='/about' className={({ isActive }) => isActive ? 'text-white border-orange-500 border-b-2' : 'text-white hover:border-orange-500 hover:border-b-2'} >About</NavLink></li>
-        <li><NavLink to='/project' className={({ isActive }) => isActive ? 'text-white border-orange-500 border-b-2' : 'text-white hover:border-orange-500 hover:border-b-2'} >Project</NavLink></li>
-        <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-white border-orange-500 border-b-2' : 'text-white hover:border-orange-500 hover:border-b-2'}>Contact</NavLink></li>
-        <li><NavLink to='/blog' className={({ isActive }) => isActive ? 'text-white border-orange-500 border-b-2' : 'text-white hover:border-orange-500 hover:border-b-2'}>Blog</NavLink></li>
+        <li><NavLink to='/home' className={({ isActive }) => isActive ? 'text-red border-red border-b-2 bg-transparent' : 'text-black hover:border-red hover:border-b-2 hover:bg-transparent'}>Home</NavLink></li>
+        <li><NavLink to='/about' className={({ isActive }) => isActive ? 'text-red border-red border-b-2 bg-transparent' : 'text-black hover:border-red hover:border-b-2 duration-300 hover:bg-transparent'} >About</NavLink></li>
+        <li><NavLink to='/project' className={({ isActive }) => isActive ? 'text-red border-red border-b-2 bg-transparent' : 'text-black hover:border-red hover:border-b-2 hover:bg-transparent'} >Project</NavLink></li>
+        <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-red border-red border-b-2 bg-transparent' : 'text-black hover:border-red hover:border-b-2 hover:bg-transparent'}>Contact</NavLink></li>
+        <li><NavLink to='/blog' className={({ isActive }) => isActive ? 'text-red border-red border-b-2 bg-transparent' : 'text-black hover:border-red hover:border-b-2 hover:bg-transparent'}>Blog</NavLink></li>
     </>
     return (
-        <div className=' bg-gradient-to-b from-[#1b2a42] to-[#0a192ff8] sticky top-0 z-20'>
+        // bg-gradient-to-b from-[#1b2a42] to-[#0a192ff8]
+        <div className=' bg-[#e5e7fef4] shadow-md sticky top-0 z-20'>
             <div className="navbar w-11/12 mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -25,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to='/' className="flex items-center text-xl md:text-3xl gap-1 md:gap-3 font-semibold">
-                        <img className='w-14 md:w-16' src={logo} alt="" /></Link>
+                        <img className='w-14 md:w-16 ' src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-2">
@@ -33,8 +36,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a download="Mishkat Resume" href={cv} target="_blank" rel="noopener noreferrer"
-                        className="btn btn-outline border-orange-400 text-white hover:bg-orange-500 duration-300">Resume</a>
+                    <GetResume />
                 </div>
             </div>
         </div>

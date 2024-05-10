@@ -57,8 +57,7 @@ const App = () => {
         {
           path: "/details/:id",
           element: <ProjectDetails />
-        },
-
+        }
       ]
     }
   ])
