@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from "../../../images/mishkat-logo-6.png";
-import cv from "../../../CV/MiskatCV.pdf";
 import { Link, NavLink } from 'react-router-dom';
-import { FaCloudDownloadAlt } from 'react-icons/fa';
 import GetResume from '../GetResume';
 
 const Navbar = () => {
