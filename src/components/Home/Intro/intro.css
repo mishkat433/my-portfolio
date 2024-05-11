@@ -1,0 +1,103 @@
+.intro-bg-shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.intro-bg-shape2 {
+    clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    /* background: #313030; */
+
+
+
+}
+
+
+.ss {
+    background-color: transparent;
+    background-image: radial-gradient(at right center, #F7F9F4 0%, #FFD7D4 100%);
+}
+
+.hello {
+    /* color: linear-gradient(#ff9696, #ffe89e); */
+    margin-bottom: 8px;
+
+    background: linear-gradient(#ff9696 40%, #F97316);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#egg {
+    display: block;
+    width: 126px;
+    height: 180px;
+    background-color: rgb(83, 172, 250);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+#cut-diamond {
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 50px;
+    box-sizing: content-box;
+    position: relative;
+    margin: 20px 0 50px 0;
+}
+
+#cut-diamond:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    border-width: 70px 50px 0 50px;
+}
+
+#yin-yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    background: #eee;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+}
+
+#yin-yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #eee;
+    border: 18px solid red;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}
+
+#yin-yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: red;
+    border: 18px solid #eee;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}
+
+
+/* 
+background-color: transparent;
+background-image: radial-gradient(at top center, #F7F9F4 0%, #FFD7D4 100%); */

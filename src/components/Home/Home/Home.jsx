@@ -8,7 +8,8 @@ import Projects from '../projects/Projects';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='bg-main-bg bg-repeat bg-cover bg-center'>
+
             <Intro />
             <About />
             {/* <Skills></Skills> */}

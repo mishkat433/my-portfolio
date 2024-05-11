@@ -40,7 +40,7 @@ const Contact = () => {
                                     <textarea name="message" className="textarea textarea-bordered h-32" placeholder='Type your message here :'></textarea>
                                 </div>
                                 <div className="form-control mt-5 w-3/6 md:w-1/6">
-                                    <button type='submit' className="btn bg-orange-500 hover:bg-orange-700">Send <FaTelegramPlane className='ml-3' /></button>
+                                    <button type='submit' className="btn bg-red hover:bg-transparent border-red hover:border-red hover:text-red    duration-300">Send <FaTelegramPlane className='ml-3' /></button>
                                 </div>
                             </div>
                         </form>

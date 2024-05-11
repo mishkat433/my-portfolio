@@ -5,8 +5,7 @@ import Navbar from '../components/Common/Navbar/Navbar';
 
 const MainLayout = () => {
     return (
-        <div className='bg-[#0A192F]'>
-
+        <div className=''>
             <Navbar />
             <Outlet />
             <Footer />
@@ -15,3 +14,5 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
+// bg-[#0A192F]
